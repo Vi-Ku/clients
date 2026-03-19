@@ -6,7 +6,6 @@ import { BadgeModule } from "../badge";
 import { ButtonModule } from "../button";
 import { IconButtonModule } from "../icon-button";
 import { LinkModule } from "../link";
-import { SharedModule } from "../shared/shared.module";
 import { I18nMockService } from "../utils/i18n-mock.service";
 
 import { BannerTitleDirective } from "./banner-title.directive";
@@ -18,7 +17,7 @@ export default {
   decorators: [
     moduleMetadata({
       imports: [
-        SharedModule,
+        // SharedModule,
         IconButtonModule,
         LinkModule,
         ButtonModule,
